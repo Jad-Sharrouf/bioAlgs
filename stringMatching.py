@@ -438,26 +438,6 @@ for p in proteins:
         stTime += (e4-s4)
         
         #Printing the occurrence count and their indices
-        print(p,"-->",len(naive),"occurrences.")
-        for x in naive:
-            print(x,end=" ")
-        print("\n")
-
-        print(p,"-->",len(bm),"occurrences.")
-        for x in bm:
-            print(x,end=" ")
-        print("\n")
-
-        print(p,"-->",len(kmp),"occurrences.")
-        for x in kmp:
-            print(x,end=" ")
-        print("\n")
-
-        print(p,"-->",len(SA),"occurrences.")
-        for x in SA:
-            print(x,end=" ")
-        print("\n")
-
         if st != -1:
             print(p,"-->",len(st),"occurrences.")
             for x in st:
